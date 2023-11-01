@@ -6,7 +6,7 @@ const db = new Sequelize({
     storage: path.join(__dirname, "db.sqlite")
 })
 
-console.log(db)
+// console.log(db)
 
 
 module.exports = {
